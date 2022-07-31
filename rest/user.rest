@@ -1,0 +1,23 @@
+GET http://localhost:3000/todo HTTP/1.1
+
+###
+POST http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+ "title": "Phone Call",
+ "description": "Make phone calls with the linkedIn tech interns "
+}
+
+###
+PUT http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+ "title": "Restaurant Reservation",
+ "description": "Check out and make reservations at a restaurant so you and your friends can hangout. "
+}
+
+
+###
+DELETE http://localhost:3000/todo/ HTTP/1.1
